@@ -24,7 +24,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Getopt-Long-Patch-DumpAndExit
   homepage: https://metacpan.org/release/Getopt-Long-Patch-DumpAndExit
   repository: git://github.com/perlancar/perl-Getopt-Long-Patch-DumpAndExit.git
-version: '0.01'
+version: '0.02'
 x_Dist_Zilla:
   perl:
     version: '5.018002'

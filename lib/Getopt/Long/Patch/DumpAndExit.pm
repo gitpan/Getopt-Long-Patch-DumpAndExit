@@ -1,7 +1,7 @@
 package Getopt::Long::Patch::DumpAndExit;
 
 our $DATE = '2014-12-14'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 use 5.010001;
 use strict;
@@ -14,9 +14,9 @@ use base qw(Module::Patch);
 our %config;
 
 sub _dump {
-    print "# BEGIN DUMPSPEC $config{-tag}\n";
+    print "# BEGIN DUMP $config{-tag}\n";
     dd @_;
-    print "# END DUMPSPEC $config{-tag}\n";
+    print "# END DUMP $config{-tag}\n";
 }
 
 sub _GetOptions(@) {
@@ -101,7 +101,7 @@ Getopt::Long::Patch::DumpAndExit - Patch Getopt::Long to dump option spec and ex
 
 =head1 VERSION
 
-This document describes version 0.01 of Getopt::Long::Patch::DumpAndExit (from Perl distribution Getopt-Long-Patch-DumpAndExit), released on 2014-12-14.
+This document describes version 0.02 of Getopt::Long::Patch::DumpAndExit (from Perl distribution Getopt-Long-Patch-DumpAndExit), released on 2014-12-14.
 
 =head1 DESCRIPTION
 

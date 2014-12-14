@@ -3,7 +3,7 @@ NAME
     spec and exit
 
 VERSION
-    This document describes version 0.01 of Getopt::Long::Patch::DumpAndExit
+    This document describes version 0.02 of Getopt::Long::Patch::DumpAndExit
     (from Perl distribution Getopt-Long-Patch-DumpAndExit), released on
     2014-12-14.
 
